@@ -1,5 +1,4 @@
 import Document from "next/document";
-//highlight-next-line
 import { ServerStyleSheet } from "styled-components";
 
 export default class MyDocument extends Document {
