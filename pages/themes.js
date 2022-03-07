@@ -1,4 +1,4 @@
-export default {
+export default themes =  {
     colors: {
       black: '#000e1a',
       white: '#fff',
