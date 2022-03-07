@@ -1,10 +1,8 @@
 import {
   HeroHeadlineWrapper,
-  HeroImg,
   HeroImgWrapper,
   HeroSvg
 } from "./Herosection.elements";
-import PeopleImg from '../../../public/people.svg';
 
 export default function HeroSection() {
   return (
