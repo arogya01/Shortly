@@ -36,7 +36,7 @@ export const NavLink = styled.a`
     font-weight:bold;
     padding:0 0.5rem;
     cursor:pointer;
-    ${color}
+    
 `
 
 
