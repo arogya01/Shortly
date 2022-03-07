@@ -1,11 +1,11 @@
 import { ThemeProvider } from 'styled-components'
 import '../styles/globals.css'
-import themes from './themes';
+import {theme} from './themes';
 
 function MyApp({ Component, pageProps }) {
 
   return (
-   <ThemeProvider theme={themes}>
+   <ThemeProvider theme={theme}>
    <Component {...pageProps} />  
      </ThemeProvider> 
   )
