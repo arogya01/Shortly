@@ -4,7 +4,6 @@ import {
   HeroImgWrapper,
   HeroSvg
 } from "./Herosection.elements";
-import {peopleWorkingImg} from '../../../public/people.png';
 import PeopleImg from '../../../public/people.svg';
 
 export default function HeroSection() {
