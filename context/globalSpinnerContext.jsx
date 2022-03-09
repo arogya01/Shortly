@@ -1,13 +1,13 @@
 import { createContext, useState } from "react";
 
-export const SpinnerProvider=createContext();
+export const SpinnerContext=createContext();
 
-export default function GlobalSpinnerContext(props){
+export default function GlobalSpinnerProvider(props){
     const [globalSpinner,setGlobalSpinner] = useState(false);
 
     return(
-        <SpinnerProvider.Provider value={{globalSpinner,setGlobalSpinner}}>
+        <SpinnerContext.Provider value={{globalSpinner,setGlobalSpinner}}>
             {props.children}
-        </SpinnerProvider.Provider>
+        </SpinnerContext.Provider>
     )
 }
