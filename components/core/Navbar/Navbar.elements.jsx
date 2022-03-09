@@ -32,9 +32,9 @@ export const NavbarLinksWrapper = styled.div`
 
 export const NavLink = styled.a`
     text-decoration:none;
-    font-weight:bold;
     padding:0 0.5rem;
     cursor:pointer;
+    color:#808080;
     
 `
 

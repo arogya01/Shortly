@@ -101,7 +101,7 @@ const Navbar = () => {
         </WebsiteLogoWrapper>
         {windowDimensions.width > 560 ? (
           <NavbarLinksWrapper>
-            <NavLink color="darkViolet">Features</NavLink>
+            <NavLink >Features</NavLink>
             <NavLink>Pricing</NavLink>
             <NavLink>Resources</NavLink>
           </NavbarLinksWrapper>
