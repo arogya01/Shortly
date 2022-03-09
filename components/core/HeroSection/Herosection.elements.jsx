@@ -7,9 +7,10 @@ export const HeroHeadlineWrapper = styled.section`
   font-size: 40px;
   font-weight: 900;
   line-height: 1.2;
-  padding: 2rem 0 1rem 0;
-
+  padding: 1rem 0;
+  
   @media (min-width: 1000px) {
+    padding: 2rem 0 1rem 0;
     font-size: 76px;
     flex-flow: row wrap;
     align-items: center;
@@ -22,7 +23,7 @@ export const HeroHeadlineWrapper = styled.section`
   }
 
   > .para {
-    padding: 0.8rem;
+    padding: 0.4rem;
     margin: 0;
     text-transform: uppercase;
   }
