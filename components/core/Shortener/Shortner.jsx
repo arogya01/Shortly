@@ -38,7 +38,7 @@ export default function Shortner() {
         // console.log(true);
          const retrivedItem = localStorage.getItem("inputLink");
          const retrieveArr = JSON.parse(retrivedItem);
-         const newArr = [...retrieveArr,shortenedArr];
+         const newArr = [shortenedArr,...retrieveArr];
          localStorage.setItem("inputLink",JSON.stringify(newArr));
         
        }
