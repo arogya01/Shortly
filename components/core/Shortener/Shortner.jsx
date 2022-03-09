@@ -69,6 +69,7 @@ export default function Shortner() {
       <ShortnerInputWrapper>
         <ShortnerInput
           value={inputLink}
+          placeholder="Shorten a link here..."
           onChange={(e) => {
             setInputLink(e.target.value);
             // console.log(`the input value is ${e.target.value} , ${inputLink}`);

@@ -30,6 +30,12 @@ export const ShortnerInput = styled.input`
   border-radius:10px;
   z-index:2;
   width:100%;
+  font-size:1rem;
+  font-family: 'Poppins', sans-serif;
+
+  &::placeholder{
+    font-size:1rem;
+  }
   @media(min-width:768px){
     width:70%;
   }
