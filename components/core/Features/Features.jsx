@@ -7,8 +7,13 @@ import {
   FeatureDescription,
   BrandIconWrapper,
   BlueLine,
-  FeatureCardWrapper
+  FeatureCardWrapper,
+  PosterWrapper,
+  PosterBtn
 } from "./Features.elements";
+import myImage from "../../../public/Meteor.png";
+import{ StyledImage} from '../Shortener/Shortner.elements'
+
 
 export default function Features() {
   return (
@@ -54,6 +59,17 @@ export default function Features() {
       </FeatureCards>
     </FeatureCardWrapper>
     
+    <PosterWrapper>
+    <StyledImage
+        src={myImage}
+        objectFit="cover"
+        layout="fill"
+        quality={100}
+        alt="someImg"
+      />
+      <h2>Boost Your Links Today</h2>
+      <PosterBtn>Get Started</PosterBtn>
+    </PosterWrapper>
     </FeaturesWrapper>
   );
 }

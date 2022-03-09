@@ -50,6 +50,7 @@ export const NavMobileLink= styled(NavLink)`
 export const HamLogoWrapper = styled.span`
   cursor:pointer;
 `
+
 export const WebsiteLogo = () => {
     return (
       <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">

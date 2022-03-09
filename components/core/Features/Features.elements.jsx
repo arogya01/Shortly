@@ -5,65 +5,88 @@ export const FeaturesWrapper = styled.section`
   margin: 2rem;
 `;
 export const FeaturesHeadlineWrapper = styled.div`
-    display:flex;
-    text-align:center;
-    flex-flow:column wrap;
+  display: flex;
+  text-align: center;
+  flex-flow: column wrap;
 
-    > p{
-        padding:0 1.5rem;
-        line-height:1.5;
-    }
-`
+  > p {
+    padding: 0 1.5rem;
+    line-height: 1.5;
+  }
+`;
 
 export const FeatureHeadline = styled.h2`
-    font-size:1.5rem; 
-    font-weight:700;
-
-`
-export const FeatureCardWrapper=styled.div`
-  
-  @media(min-width:768px){
-    display:flex;
-    flex-flow:row nowrap;
-    
+  font-size: 1.5rem;
+  font-weight: 700;
+`;
+export const FeatureCardWrapper = styled.div`
+  @media (min-width: 768px) {
+    display: flex;
+    flex-flow: row nowrap;
   }
-`
+`;
 
 export const FeatureCards = styled.div`
-    display:flex;
-    flex-flow:column wrap;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;    
-    line-height:1.5;
-    padding:4rem 0 0 0;
-    align-items:center;
-    position:relative;
-    border-radius:4px;
-    margin:4rem 0.5rem;
-`
+  display: flex;
+  flex-flow: column wrap;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  line-height: 1.5;
+  padding: 4rem 0 0 0;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+  margin: 4rem 0.5rem;
+`;
 
 export const BrandIconWrapper = styled.span`
-    position:absolute;
-    top:-32px;
-    width:64px;
-    height:64px;
-    border-radius:50%; 
-    background-color:#3b3054;
-    display:grid;
-    place-content:center;
-
-`
+  position: absolute;
+  top: -32px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #3b3054;
+  display: grid;
+  place-content: center;
+`;
 
 export const FeatureDescription = styled.p`
-    padding:0 1rem 1rem 1rem;
-    text-align:center;
-    color:#808080;
-`
-export const BlueLine = styled.div`
-    width:20px;
-    height:20px;
-    background-color:#000;
-    
-`
+  padding: 0 1rem 1rem 1rem;
+  text-align: center;
+  color: #808080;
+`;
+// export const BlueLine = styled.div`
+//     width:20px;
+//     height:20px;
+//     background-color:#000;
+
+// `
+
+export const PosterWrapper = styled.div`
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+
+  > h2 {
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+  }
+`;
+
+export const PosterBtn = styled.button`
+  border-radius: 32px;
+  background-color: #2acfcf;
+  border: none;
+  padding: 1rem 3rem;
+  color: #fff;
+  font-weight: 700;
+  font-size:1.2rem;
+  margin:1rem 0;
+
+
+`;
 export const BrandIcon = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">
